@@ -1,0 +1,19 @@
+Note:
+No declarations made
+
+Fonts:
+
+1. Font Name....:HP Simplified (Studio Standard Fonts list)
+   Font URL.....:http://studio.topcoder.com/?module=DownloadCatalogDocument&ct=30050974&docid=27519348
+
+
+Stock Arts:
+
+1. Stock Art Name.........:16851082
+   Stock Art URL..........:http://www.istockphoto.com/photo/laser-printer-16851082?st=47014d8
+   Stock Art File Number..:1
+
+2. Stock Art Name.........:1183347
+   Stock Art URL..........:http://www.istockphoto.com/photo/ink-jet-printer-1183347?st=47014d8
+   Stock Art File Number..:2
+

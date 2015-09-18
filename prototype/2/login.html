@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta Tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no">
+  <title>Login</title>
+
+  <!-- Bootstrap -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+  <!-- Main CSS -->
+  <link href="css/font.css" rel="stylesheet" />
+  <link href="css/jqtransform.css" rel="stylesheet" />
+  <link href="css/jquery.ui.css" rel="stylesheet" />
+  <link href="css/screen.css" rel="stylesheet" />
+    
+  <!-- jQuery library -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery.jqtransform.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script> 
+  <!-- Main JS -->
+  <script src="js/script.js"></script>
+</head>
+<body>
+<div class="login">
+  <h2 class="titles">Product Inventory</h2>
+  <div class="forms">
+    <div class="error-msg hide">
+      <span>Please provide user ID or and password correctly!</span>
+    </div>
+    <div class="login-input">
+      <input type="text" class="username-input" placeholder="Username"/>
+    </div>
+    <div class="login-input">
+      <input type="password" class="password-input" placeholder="Password"/>
+    </div>
+    <div class="login-checkbox">
+      <a href="javascript:;" class="checkbox pull-left">
+        <span class="checkbox-border"><i class="icons"></i></span>Remember me
+      </a>
+      <a href="javascript:" class="pull-right right-link reset-or-forget-password-link">Reset or Forgot Password ?</a>
+    </div>
+    <a href="javascript:" class="blue-btn login-button">LOGIN</a>
+  </div>
+  <!-- end .forms -->
+</div>
+<!-- end .login -->
+
+<div class="forgot-password hide">
+  <h2 class="titles">Product Inventory</h2>
+  <h3 class="sub-titles">Forgot Password</h3>
+  <p class="tip-text">
+    <span class="block">To reset your password, enter the username you use to sign in to <span class="bold">Product Inventory Application. </span></span>
+    <span class="block">This can be your E-mail address, or it may be another email address you associated with your account.</span>
+  </p>
+  <!-- end .tip-text -->
+  <div class="forms">
+    <div class="row">
+      <span class="txt">E-mail Address</span>
+      <span class="item-input"><input type="email" class="email-address-input"></span>
+    </div>
+    <div class="ok-box hide">
+      <div class="txt">
+        <span class="block">Your Password Recovery Requested has been successfully process. </span>
+        <span class="block">Please to check your e-mail address to activate !</span>
+      </div>
+      <div class="btns-area">
+        <a href="javascript:;" class="blue-btn btn-ok">OK</a> 
+      </div>
+      <!-- end .btns-area -->
+    </div>
+    <!-- end .ok-box -->
+    <div class="error-box hide">
+      <div class="txt">User doesn't exist</div>
+      <div class="btns-area">
+        <a href="javascript:;" class="blue-btn btn-try-again">TRY AGAIN</a> 
+      </div>
+      <!-- end .btns-area -->
+    </div>
+    <!-- end .error-box -->
+    <div class="btns-area">
+      <a href="javascript:;" class="gray-btn btn-cancel">Cancel</a>
+      <a href="javascript:;" class="blue-btn btn-submit">Submit</a> 
+    </div>
+    <!-- end .btns-area -->
+  </div>
+  <!-- end .forms -->
+  <div class="bottom-text">
+    <h4>Attention:</h4>
+    <p>
+      Password Recovery Process will only active in 30 minutes from now. Please to check your e-mail. Thanks
+    </p>
+  </div>
+  <!-- end .bottom-text -->  
+</div>
+<!-- end .forgot-password -->
+</body>
+</html>

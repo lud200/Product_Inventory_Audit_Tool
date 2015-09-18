@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta Tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no">
+  <title>Messages</title>
+
+  <!-- Bootstrap -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+  <!-- Main CSS -->
+  <link href="css/font.css" rel="stylesheet" />
+  <link href="css/jqtransform.css" rel="stylesheet" />
+  <link href="css/jquery.ui.css" rel="stylesheet" />
+  <link href="css/screen.css" rel="stylesheet" />
+    
+  <!-- jQuery library -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery.jqtransform.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script> 
+  <!-- Main JS -->
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container-fluid">
+      <div class="logo pull-left">Product Inventory</div>
+      <!-- end .logo -->
+      <div class="nav-user pull-right">
+        <nav class="nav-bar pull-left">
+          <ul>
+            <li>
+              <a href="dashboard.html">
+                <span class="icon-dashboard icons"></span>
+                <span class="txt">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="search.html">
+                <span class="icon-search icons"></span>
+                <span class="txt">Search</span>
+              </a>
+            </li>
+            <li>
+              <a href="profile.html">
+                <span class="icon-profile icons"></span>
+                <span class="txt">Profile</span>
+              </a>
+            </li>
+            <li class="current">
+              <a href="messages.html">
+                <span class="icon-messages icons"></span>
+                <span class="txt">Messages</span>
+              </a>
+            </li>
+            <li>
+              <a class="menu-item-alerts" href="javascript:;">
+                <span class="icon-alerts icons">
+                  <span class="orange-round">6</span>
+                </span>
+                <span class="txt">Alerts</span>
+              </a>
+              <div class="alerts-notification hide">
+                <span class="icon-top-arrow icons"></span>
+                <h3>You have 6 new alerts</h3>
+                <div class="table-data scroll-bar">
+                  <div class="row light-row green-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum has been <span class="green-txt">available now!</span></a>
+                    </p>
+                    <p class="font13">2 minutes ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row light-row orange-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="orange-txt">out of stock and price drop!</span></a>
+                    </p>
+                    <p class="font13">4 minutes ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row blue-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="blue-txt">new version!</span></a>
+                    </p>
+                    <p class="font13">1 hour ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row purple-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail-printer.html">Product name lorem ipsum <span class="purple-txt">coming soon!</span></a>
+                    </p>
+                    <p class="font13">2 hours ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row yellow-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum will <span class="yellow-txt">empty soon!</span></a>
+                    </p>
+                    <p class="font13">12 hours ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row light-row orange-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="orange-txt">out of stock and price drop!</span></a>
+                    </p>
+                    <p class="font13">1 day ago</p>
+                  </div>
+                  <!-- end .row -->    
+                  <div class="row blue-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="blue-txt">new version!</span></a>
+                    </p>
+                    <p class="font13">1 hour ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row purple-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail-printer.html">Product name lorem ipsum <span class="purple-txt">coming soon!</span></a>
+                    </p>
+                    <p class="font13">2 hours ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row yellow-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum will <span class="yellow-txt">empty soon!</span></a>
+                    </p>
+                    <p class="font13">12 hours ago</p>
+                  </div>
+                  <!-- end .row -->          
+                </div>
+                <!-- end .table-data -->
+                <div class="btn-bar"><a href="alerts.html">View More</a></div>  
+                <!-- end .btn-bar --> 
+              </div>
+              <!-- end .alerts-notification -->
+            </li>
+          </ul>
+        </nav>
+        <!-- end .nav-bar -->
+        <div class="user-bar pull-left">
+          <span class="txt">Welcome, Jeniroxy</span>
+          <span class="describe">as Project Manager</span>
+        </div>
+        <!-- end .user-bar -->
+      </div>
+      <!-- end .nav-user -->
+      <span class="clearfix"></span>
+    </div>
+  </header>
+  <!-- end .header -->
+  
+  <div class="titles top24">
+    <h2 class="pull-left">Messages</h2>
+    <a href="javascript:;" class="pull-right blue-btn top5 write-new-message-button">Write New Message</a>
+    <span class="clearfix"></span>
+  </div>
+  <!-- end .titles --> 
+  
+  <div class="messages-list">  
+    <nav class="contents-tab top40">
+      <ul class="pull-left">
+        <li class="current"><a href="javascript:;"><i class="blue-border"></i>Inbox</a></li>
+        <li><a href="javascript:;"><i class="blue-border"></i>Draft</a></li>
+        <li><a href="javascript:;" class="message-send-tab"><i class="blue-border"></i>Send</a></li>
+      </ul>
+      <span class="pull-right icon-group">
+        <a href="javascript:;" class="icon-reload"><i class="icons"></i></a>
+        <a href="javascript:;" class="icon-del"><i class="icons"></i></a>
+      </span>
+    </nav>
+    <!-- end .contents-tab -->
+    <div class="contents messages-table messages-inbox tab-content">    
+      <div class="container-fluid">
+        <div class="table-data">
+          <div class="row row-th">
+            <div class="col-th col-8 text-left"></div>
+            <div class="col-th col-92 text-left">
+              <div class="col-link">
+                <span class="col-20">From</span>
+                <span class="col-55">Subject</span>
+                <span class="col-25">Date</span>
+              </div>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row row-bold">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star active"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row -->
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+        </div>
+        <!-- end .table-data -->
+      </div>
+    </div>
+    <!-- end .messages-inbox -->
+    
+    <div class="contents messages-table messages-draf tab-content hide">    
+      <div class="container-fluid">
+        <div class="table-data">
+          <div class="row row-th">
+            <div class="col-th col-8 text-left"></div>
+            <div class="col-th col-92 text-left">
+              <div class="col-link">
+                <span class="col-20">To</span>
+                <span class="col-55">Subject</span>
+                <span class="col-25">Date</span>
+              </div>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star active"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row -->
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+        </div>
+        <!-- end .table-data -->
+      </div>
+    </div>
+    <!-- end .messages-draf -->
+    
+    <div class="contents messages-table messages-send tab-content hide">    
+      <div class="container-fluid">
+        <div class="table-data">
+          <div class="row row-th">
+            <div class="col-th col-8 text-left"></div>
+            <div class="col-th col-92 text-left">
+              <div class="col-link">
+                <span class="col-20">To</span>
+                <span class="col-55">Subject</span>
+                <span class="col-25">Date</span>
+              </div>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star active"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row -->
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-8 text-left">
+              <span class="col-group">
+                <a href="javascript:;" class="checkbox icons"></a>
+                <a href="javascript:;" class="icons icon-star"></a>
+              </span>
+            </div>
+            <div class="col-td col-92 text-left">
+              <a href="javascript:;" class="col-link">
+                <span class="col-20">Jhon</span>
+                <span class="col-55">How to Claim warranty of HP Officejet Eterprise Color X555xh</span>
+                <span class="col-25">Aug 2, 2015</span>
+              </a>
+            </div>
+          </div>
+          <!-- end .row --> 
+        </div>
+        <!-- end .table-data -->
+      </div>
+    </div>
+    <!-- end .messages-send -->
+  </div>
+  <!-- end .messages-list --> 
+  
+  <div class="contents send-message write-new-message hide">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="name">To</div>
+        <div class="context">
+          <div class="message-input right100">
+            <input type="text">
+            <span class="right-text">
+              <span class="txt">Cc</span>
+              <span class="txt">Bcc</span>
+            </span>
+          </div>
+        </div>
+        <!-- end .context -->
+      </div>
+      <!-- end .row -->
+      <div class="row">
+        <div class="name">Subject</div>
+        <div class="context">
+          <div class="message-input">
+            <input type="text">
+          </div>
+        </div>
+        <!-- end .context -->
+      </div>
+     <!-- end .row -->
+      <div class="row">
+        <div class="name">Message</div>
+        <div class="context">
+          <div class="message-textarea">
+            <textarea></textarea>
+          </div>
+        </div>
+        <!-- end .context -->
+      </div>
+      <!-- end .row -->
+      <div class="btns-area">
+        <a href="javascript:;" class="blue-btn btn-send">Send</a> 
+        <a href="javascript:;" class="gray-btn btn-cancel">Cancel</a>
+      </div>
+      <!-- end .btns-area -->
+    </div>
+  </div>
+  <!-- end .write-new-message -->
+  
+  <div class="contents send-message message-detail-draft hide">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="name">To</div>
+        <div class="context">
+          <div class="message-input right100">
+            <input type="text" value="Jhony Deep jhony.deep@gmail.com; Keren@abc.com">
+            <span class="right-text">
+              <span class="txt">Cc</span>
+              <span class="txt">Bcc</span>
+            </span>
+          </div>
+        </div>
+        <!-- end .context -->
+      </div>
+      <!-- end .row -->
+      <div class="row">
+        <div class="name">Subject</div>
+        <div class="context">
+          <div class="message-input">
+            <input type="text" value="How to Claim warranty of HP Officejet EnterpriseColor X555xh">
+          </div>
+        </div>
+        <!-- end .context -->
+      </div>
+     <!-- end .row -->
+      <div class="row">
+        <div class="name">Message</div>
+        <div class="context">
+          <div class="message-textarea">
+            <textarea>Dear All,</textarea>
+          </div>
+        </div>
+        <!-- end .context -->
+      </div>
+      <!-- end .row -->
+      <div class="btns-area">
+        <a href="javascript:;" class="blue-btn btn-send">Send</a> 
+        <a href="javascript:;" class="gray-btn btn-cancel">Cancel</a>
+      </div>
+      <!-- end .btns-area -->
+    </div>
+  </div>
+  <!-- end .message-detail-draft -->
+  
+  <div class="contents reply-message message-detail-inbox hide">
+    <div class="container-fluid">  
+      <div class="row">
+        <div class="name">From</div>
+        <div class="context">
+          <div class="message-input right100">
+            <span>Jhony Deep jhony.deep@gmail.com; Keren@abc.com</span>
+            <span class="right-text">
+              <span class="txt">Cc</span>
+              <span class="txt">Bcc</span>
+            </span>
+          </div>
+        </div>
+        <!-- end .context -->
+      </div>
+      <!-- end .row -->
+      <div class="row">
+        <div class="name">Subject</div>
+        <div class="context">
+          <div class="message-input">
+            How to Claim warranty of HP Officejet EnterpriseColor X555xh
+          </div>
+        </div>
+        <!-- end .context -->
+      </div>
+      <!-- end .row -->
+      <div class="row">
+        <div class="name"></div>
+        <div class="context">
+          <p>Dear All,</p>
+          <P class="txt-box">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo
+            magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra 
+            nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque 
+            at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et 
+            imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta
+            tristique. Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+          </p>
+        </div>
+        <!-- end .context -->
+      </div>
+      <!-- end .row -->
+      <div class="btns-area default-buttons">
+        <a href="javascript:;" class="blue-btn btn-reply">Reply</a> 
+        <a href="javascript:;" class="gray-btn btn-cancel">Cancel</a>
+      </div>
+      <!-- end .btns-area -->
+      <div class="row reply-content hide">
+        <div class="context no-border">
+          <div class="reply-area">
+            <div class="reply-to"><span>To:</span><input type="text" value="Jhony Deep"></div>
+            <div class="message-textarea">
+              <textarea></textarea>
+            </div>
+          </div>
+          <!-- end .reply-area -->
+        </div>
+        <!-- end .context -->
+      </div>
+      <!-- end .row -->
+      <div class="btns-area reply-buttons hide">
+        <a href="javascript:;" class="blue-btn btn-reply">Reply</a> 
+        <a href="javascript:;" class="gray-btn btn-cancel">Cancel</a>
+      </div>
+      <!-- end .btns-area -->
+    </div>
+  </div>
+  <!-- end .message-detail-inbox -->
+  
+  <div class="contents reply-message message-detail-sent hide">
+    <div class="container-fluid">  
+      <div class="row">
+        <div class="name">To</div>
+        <div class="context">
+          <div class="message-input right100">
+            <span>Jhony Deep jhony.deep@gmail.com; Keren@abc.com</span>
+            <span class="right-text">
+              <span class="txt">Cc</span>
+              <span class="txt">Bcc</span>
+            </span>
+          </div>
+        </div>
+        <!-- end .context -->
+      </div>
+      <!-- end .row -->
+      <div class="row">
+        <div class="name">Subject</div>
+        <div class="context">
+          <div class="message-input">
+            How to Claim warranty of HP Officejet EnterpriseColor X555xh
+          </div>
+        </div>
+        <!-- end .context -->
+      </div>
+      <!-- end .row -->
+      <div class="row">
+        <div class="name"></div>
+        <div class="context">
+          <p>Dear All,</p>
+          <P class="txt-box">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo
+            magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra 
+            nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque 
+            at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et 
+            imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta
+            tristique. Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+          </p>
+        </div>
+        <!-- end .context -->
+      </div>
+      <!-- end .row -->
+    </div>
+  </div>
+  <!-- end .message-detail-sent -->
+  
+  <footer class="footer">
+    <div class="container-fluid">
+      <p class="copyright">Copyright Product Inventory @2015</p>
+    </div>
+  </footer>
+  <!-- end .footer -->
+  
+</body>
+</html>

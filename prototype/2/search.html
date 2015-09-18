@@ -1,0 +1,2172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta Tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no">
+  <title>Search</title>
+
+  <!-- Bootstrap -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+  <!-- Main CSS -->
+  <link href="css/font.css" rel="stylesheet" />
+  <link href="css/jqtransform.css" rel="stylesheet" />
+  <link href="css/jquery.ui.css" rel="stylesheet" />
+  <link href="css/screen.css" rel="stylesheet" />
+    
+  <!-- jQuery library -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery.jqtransform.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>  
+  <!-- Main JS -->
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container-fluid">
+      <div class="logo pull-left">Product Inventory</div>
+      <!-- end .logo -->
+      <div class="nav-user pull-right">
+        <nav class="nav-bar pull-left">
+          <ul>
+            <li>
+              <a href="dashboard.html">
+                <span class="icon-dashboard icons"></span>
+                <span class="txt">Dashboard</span>
+              </a>
+            </li>
+            <li class="current">
+              <a href="search.html">
+                <span class="icon-search icons"></span>
+                <span class="txt">Search</span>
+              </a>
+            </li>
+            <li>
+              <a href="profile.html">
+                <span class="icon-profile icons"></span>
+                <span class="txt">Profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="messages.html">
+                <span class="icon-messages icons"></span>
+                <span class="txt">Messages</span>
+              </a>
+            </li>
+            <li>
+              <a class="menu-item-alerts" href="javascript:;">
+                <span class="icon-alerts icons">
+                  <span class="orange-round">6</span>
+                </span>
+                <span class="txt">Alerts</span>
+              </a>
+              <div class="alerts-notification hide">
+                <span class="icon-top-arrow icons"></span>
+                <h3>You have 6 new alerts</h3>
+                <div class="table-data scroll-bar">
+                  <div class="row light-row green-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum has been <span class="green-txt">available now!</span></a>
+                    </p>
+                    <p class="font13">2 minutes ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row light-row orange-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="orange-txt">out of stock and price drop!</span></a>
+                    </p>
+                    <p class="font13">4 minutes ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row blue-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="blue-txt">new version!</span></a>
+                    </p>
+                    <p class="font13">1 hour ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row purple-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail-printer.html">Product name lorem ipsum <span class="purple-txt">coming soon!</span></a>
+                    </p>
+                    <p class="font13">2 hours ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row yellow-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum will <span class="yellow-txt">empty soon!</span></a>
+                    </p>
+                    <p class="font13">12 hours ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row light-row orange-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="orange-txt">out of stock and price drop!</span></a>
+                    </p>
+                    <p class="font13">1 day ago</p>
+                  </div>
+                  <!-- end .row -->    
+                  <div class="row blue-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="blue-txt">new version!</span></a>
+                    </p>
+                    <p class="font13">1 hour ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row purple-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail-printer.html">Product name lorem ipsum <span class="purple-txt">coming soon!</span></a>
+                    </p>
+                    <p class="font13">2 hours ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row yellow-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum will <span class="yellow-txt">empty soon!</span></a>
+                    </p>
+                    <p class="font13">12 hours ago</p>
+                  </div>
+                  <!-- end .row -->          
+                </div>
+                <!-- end .table-data -->
+                <div class="btn-bar"><a href="alerts.html">View More</a></div>  
+                <!-- end .btn-bar --> 
+              </div>
+              <!-- end .alerts-notification -->
+            </li>
+          </ul>
+        </nav>
+        <!-- end .nav-bar -->
+        <div class="user-bar pull-left">
+          <span class="txt">Welcome, Jeniroxy</span>
+          <span class="describe">as Project Manager</span>
+        </div>
+        <!-- end .user-bar -->
+      </div>
+      <!-- end .nav-user -->
+      <span class="clearfix"></span>
+    </div>
+  </header>
+  <!-- end .header -->
+  
+  <nav class="menu-tab">
+    <div class="container-fluid">
+      <ul class="sub-tab spacing18 pull-left">
+        <li class="current"><a href="javascript:;"><i class="icon-arrow"></i>Printers</a></li>
+        <li><a href="javascript:;"><i class="icon-arrow"></i>Tablets</a></li>
+        <li><a href="javascript:;"><i class="icon-arrow"></i>Laptops</a></li>
+        <li><a href="javascript:;"><i class="icon-arrow"></i>Desktops</a></li>
+      </ul>
+      <span class="clearfix"></span>
+    </div>
+  </nav>
+  <!-- end .menu-tab -->
+  
+  <div class="contents search tab-content">
+    <div class="container-fluid">
+      <div class="search-area clearfix">
+        <div class="btn-boxs pull-right">
+          <a href="javascript:;" class="blue-btn search-button">Search</a>
+          <div class="pull-left save-search-box">
+            <a href="javascript:;" class="green-btn save-search-button">Save Search</a>
+              <div class="save-search-tip hide">
+                <span class="icon-top-arrow icons"></span>
+                <div class="forms">
+                  <div class="row">
+                    <span class="name">
+                      <span class="pull-left">Saved Search Name</span>
+                      <span class="pull-right">:</span>
+                    </span>
+                    <span class="context">
+                      <span class="item-input"><input type="text"></span>
+                    </span>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row">
+                    <span class="name">
+                      <span class="pull-left">Watch of each product</span>
+                      <span class="pull-right">:</span>
+                    </span>
+                    <span class="context">
+                      <span class="form-container pull-left"><input name="watch" type="radio" checked><label>Yes</label></span>
+                      <span class="form-container pull-left"><input name="watch" type="radio"><label>No</label></span>
+                    </span>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row">
+                    <span class="name">
+                      <span class="pull-left">
+                        Notify me if any changes
+                        of data related search 
+                        product content
+                      </span>
+                      <span class="pull-right">:</span>
+                    </span>
+                    <span class="context">
+                      <span class="form-container pull-left"><input name="notify" type="radio" checked><label>Yes</label></span>
+                      <span class="form-container pull-left"><input name="notify" type="radio"><label>No</label></span>
+                    </span>
+                  </div>
+                  <!-- end .row -->
+                </div>
+                <!-- end .forms -->
+                <div class="btns-area">
+                  <a href="javascript:;" class="green-btn btn-submit">Save the Search</a> 
+                  <a href="javascript:;" class="gray-btn btn-cancel">Cancel</a>
+                </div>
+                <!-- end .btns-area -->
+              </div>
+              <!-- end .save-search-tip -->
+            
+          </div>
+          <!-- end .save-search-box -->
+        </div>
+        <div class="search-input-box">
+          <div class="search-input">
+            <input type="text" placeholder="Search printer here and save it ...">
+          </div>
+          <div class="search-tip hide">
+            <div class="row">
+              <h3>Previous searches...</h3>
+              <ul>
+                <li><a href="javascript:;">search query one</a></li>
+                <li><a href="javascript:;">search query two</a></li>
+              </ul>
+            </div>
+            <!-- end .row -->
+            <div class="row">
+              <h3>Suggested searches...</h3>
+              <ul>
+                <li><a href="javascript:;">search query three</a></li>
+                <li><a href="javascript:;">search query four</a></li>
+                <li><a href="javascript:;">search query five</a></li>
+              </ul>
+            </div>
+            <!-- end .row -->
+          </div>
+          <!-- end .search-tip -->
+        </div>
+      </div>
+      <!-- end .search-area -->
+      <div class="search-main">
+        <aside class="search-left pull-left">
+          <div class="substance substance-filter clearfix">
+            <div class="title">
+              <h3>FILTER</h3>
+            </div>
+            <!-- end .title -->
+          <div class="search-content">
+            <div class="about-product">
+              <div class="forms">
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Product Type :</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context">
+                    <span class="form-container selects-container z-index-one">
+                      <select>
+                        <option selected>All Type</option>
+                        <option>Desktop</option>
+                        <option>Laptop</option>
+                        <option>Tablet</option>
+                        <option>Inkjet Printer</option>
+                        <option>Laser Printer</option>
+                      </select>
+                    </span>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Rating :</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context min-width125">
+                    <ul>
+                      <li>
+                        <a href="javascript:;" class="checkbox selected">
+                          <span class="checkbox-border"><i class="icons"></i></span>1 Star
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>2 Stars
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>3 Stars
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>4 Stars
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>5 Stars
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end .price-row -->
+                </div>
+                <!-- end .row -->
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Price Range :</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context min-width125">
+                    <input type="text" class="amount-prize-range" readonly>
+                    
+                    <div class="slider-prize-range"></div>
+                  </div>
+                  <!-- end .price-row -->
+                </div>
+                <!-- end .row -->
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Availability :</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context">
+                    <span class="form-container selects-container z-index-two">
+                      <select>
+                        <option selected>All Type</option>
+                        <option>Available</option>
+                        <option>Coming Soon</option>
+                        <option>Out of Stock</option>
+                        <option>Removed</option>
+                      </select>
+                    </span>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Compatible OS :</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context">
+                    <span class="form-container selects-container">
+                      <select>
+                        <option selected>All Type</option>
+                        <option>Windows 10 (32-bit)</option>
+                        <option>Windows 10 (64-bit)</option>
+                        <option>Windows 8.1 (64-bit)</option>
+                        <option>Windows 8.1 (32-bit)</option>
+                        <option>Windows 7 (64-bit)</option>
+                        <option>Windows 7(32-bit)</option>
+                        <option>Windows Vista (64-bit)</option>
+                        <option>Windows Vista (32-bit)</option>
+                        <option>Windows XP (32-bit)</option>
+                        <option>Mac OS X v10.6 Leopard</option>
+                        <option>Mac OS X v10.7 Lion</option>
+                        <option>Mac OS X v10.8 Mountain Lion</option>
+                        <option>Mac OS X v10.9 Lion</option>
+                      </select>
+                    </span>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row audit-date-row">
+                  <div class="name">
+                    <span class="pull-left">Product Release Date :</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context">
+                    <div class="start-block pull-left">
+                      <span class="start">From</span>                     
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="from-date" type="text" value="09/18/2015" class="from-date" readonly>
+                        <a href="javascript:;" class="calendar-icon icons date-icon"></a>
+                      </div> 
+                    </div>
+                    <div class="end-block pull-left">
+                      <span class="end">To</span>
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="to-date" type="text" class="to-date" value="09/28/2015" readonly />
+                        <a href="javascript:;" class="calendar-icon icons to-date-icon"></a>
+                      </div> 
+                    </div>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row audit-date-row">
+                  <div class="name">
+                    <span class="pull-left">Product Removed Date :</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context">
+                    <div class="start-block pull-left">
+                      <span class="start">From</span>                     
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="from-date" type="text" value="09/18/2015" class="from-date" readonly>
+                        <a href="javascript:;" class="calendar-icon icons date-icon"></a>
+                      </div> 
+                    </div>
+                    <div class="end-block pull-left">
+                      <span class="end">To</span>
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="to-date" type="text" class="to-date" value="09/28/2015" readonly />
+                        <a href="javascript:;" class="calendar-icon icons to-date-icon"></a>
+                      </div> 
+                    </div>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row audit-date-row">
+                  <div class="name">
+                    <span class="pull-left">Price Change Date :</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context">
+                    <div class="start-block pull-left">
+                      <span class="start">From</span>                     
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="from-date" type="text" value="09/18/2015" class="from-date" readonly>
+                        <a href="javascript:;" class="calendar-icon icons date-icon"></a>
+                      </div> 
+                    </div>
+                    <div class="end-block pull-left">
+                      <span class="end">To</span>
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="to-date" type="text" class="to-date" value="09/28/2015" readonly />
+                        <a href="javascript:;" class="calendar-icon icons to-date-icon"></a>
+                      </div> 
+                    </div>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row audit-date-row">
+                  <div class="name">
+                    <span class="pull-left">Rating Change Date :</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context">
+                    <div class="start-block pull-left">
+                      <span class="start">From</span>                     
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="from-date" type="text" value="09/18/2015" class="from-date" readonly>
+                        <a href="javascript:;" class="calendar-icon icons date-icon"></a>
+                      </div> 
+                    </div>
+                    <div class="end-block pull-left">
+                      <span class="end">To</span>
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="to-date" type="text" class="to-date" value="09/28/2015" readonly />
+                        <a href="javascript:;" class="calendar-icon icons to-date-icon"></a>
+                      </div> 
+                    </div>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row audit-date-row">
+                  <div class="name">
+                    <span class="pull-left">Parsing Error Date :</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context">
+                    <div class="start-block pull-left">
+                      <span class="start">From</span>                     
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="from-date" type="text" value="09/18/2015" class="from-date" readonly>
+                        <a href="javascript:;" class="calendar-icon icons date-icon"></a>
+                      </div> 
+                    </div>
+                    <div class="end-block pull-left">
+                      <span class="end">To</span>
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="to-date" type="text" class="to-date" value="09/28/2015" readonly />
+                        <a href="javascript:;" class="calendar-icon icons to-date-icon"></a>
+                      </div> 
+                    </div>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+              </div>
+              <!-- end .forms -->
+              <div class="btn-boxs hide">
+                <a href="javascript:;" class="blue-btn pull-right run-filter-button">Run Filter</a>
+                <a href="javascript:;" class="grey-btn pull-right cancel-filter-button">Cancel</a>
+                <span class="clearfix"></span>
+              </div>
+            </div>
+            <!-- end .about-product -->
+          </div>
+          <!-- end .search-content -->
+          </div>
+          <!-- end .substance -->
+          <div class="substance clearfix hide">
+            <div class="title">
+              <span class="brands pull-left"><i class="icons"></i></span>
+              <h3>BRANDS</h3>
+              <a href="javascript:;" class="toggle"><i class="icons"></i></a>
+            </div>
+            <!-- end .title -->
+            <ul>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>HP (21)
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Lexmark (19)
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Canon (18)
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox selected">
+                  <span class="checkbox-border"><i class="icons"></i></span>Brother (15)
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Epson (13)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Samsung(10)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Xerox (8)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Fujitsu (8)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Sharp (7)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Toshiba (7)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Epson (7)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Verbatim (7)
+                </a>
+              </li>              
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Unitech (7)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Ricoh (6)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>V7 (5)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Star Micronics (2)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Tallygenicom (2)
+                </a>
+              </li>
+            </ul>
+            <div class="btn-boxs hide">
+              <a href="javascript:;" class="grey-btn cancel-button">Cancel</a>
+              <a href="javascript:;" class="blue-btn apply-button">Apply</a>
+              <div class="clearfix"></div>
+            </div>
+            <a href="javascript:;" class="all-category pull-right">See All</a>
+          </div>
+          <!-- end .substance -->
+          <div class="substance hide">
+            <div class="title">
+              <span class="domains pull-left"><i class="icons"></i></span>
+              <h3>DOMAINS</h3>
+              <a href="javascript:;" class="toggle"><i class="icons"></i></a>
+            </div>
+            <!-- end .title -->
+            <ul>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain1
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain2
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain3
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain4
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain5
+                </a>
+              </li>
+              <li class="need-hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain6
+                </a>
+              </li>
+              <li class="need-hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain7
+                </a>
+              </li>
+              <li class="need-hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain8
+                </a>
+              </li>
+              <li class="need-hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain9
+                </a>
+              </li>
+              <li class="need-hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain10
+                </a>
+              </li>
+              <li class="need-hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain11
+                </a>
+              </li>
+              <li class="need-hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain12
+                </a>
+              </li>
+              <li class="need-hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain13
+                </a>
+              </li>
+              <li class="need-hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain14
+                </a>
+              </li>
+              <li class="need-hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain15
+                </a>
+              </li>
+              <li class="need-hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Domain16
+                </a>
+              </li>
+            </ul>
+            <div class="btn-boxs">
+              <a href="javascript:;" class="grey-btn cancel-button">Cancel</a>
+              <a href="javascript:;" class="blue-btn apply-button">Apply</a>
+              <div class="clearfix"></div>
+            </div>
+            <a href="javascript:;" class="all-category pull-right hide">See All</a>
+            <div class="clearfix"></div>
+          </div>
+          <!-- end .substance -->
+          <div class="substance collect hide">
+            <div class="title">
+              <span class="product-category pull-left"><i class="icons"></i></span>
+              <h3>PRODUCT CATEGORY</h3>
+              <a href="javascript:;" class="toggle"><i class="icons"></i></a>
+            </div>
+            <!-- end .title -->
+            <ul>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Inkjet (15)
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Laser (10)
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Toner (9)
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Color (8)
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Photo (8)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Label (5)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Thermal (4)
+                </a>
+              </li>
+              <li class="need-hide hide">
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>3D (4)
+                </a>
+              </li>
+            </ul>
+            <div class="btn-boxs hide">
+              <a href="javascript:;" class="grey-btn cancel-button">Cancel</a>
+              <a href="javascript:;" class="blue-btn apply-button">Apply</a>
+              <span class="clearfix"></span>
+            </div>
+            <a href="javascript:;" class="all-category pull-right">See All</a>
+            <div class="clearfix"></div>
+          </div>
+          <!-- end .substance -->
+          <div class="substance collect hide">
+            <div class="title">
+              <span class="rating pull-left"><i class="icons"></i></span>
+              <h3>RATING</h3>
+              <a href="javascript:;" class="toggle"><i class="icons"></i></a>
+            </div>
+            <!-- end .title --> 
+            <ul>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>5 Stars
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>4 Stars
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>3 Stars
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>2 Stars
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>1 Stars
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- end .substance -->
+          <div class="substance collect hide">
+            <div class="title">
+              <span class="availability-status pull-left"><i class="icons"></i></span>
+              <h3>AVAILABILITY STATUS</h3>
+              <a href="javascript:;" class="toggle"><i class="icons"></i></a>
+            </div>
+            <!-- end .title -->
+            <ul>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Available Now
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>New Version
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Price Drop
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Empty Soon
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;" class="checkbox">
+                  <span class="checkbox-border"><i class="icons"></i></span>Out of Stock
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- end .substance -->
+        </aside>
+        <!-- end .search-left -->
+        <div class="search-right">
+          <div class="printers">
+            <h2>Printers (56)</h2>
+            <div class="choice">
+              <a href="javascript:;" class="blue-link csv-link-group"><span class="blue-round">csv</span>Export to CSV</a>
+              <a href="javascript:;" class="icon-switch-grid"><i class="icons"></i></a>
+              <a href="javascript:;" class="icon-switch-list active"><i class="icons"></i></a>
+            </div>
+          </div>
+          <!-- end .printers -->
+          <div class="search-tags collect">
+            <div class="btn-tags pull-right hide">
+              <a href="javascript:;" class="orange-btn hide-micro-filter-button">
+                Hide Micro Filter<span class="icon-orange"><i class="icons"></i></span>
+              </a>
+              <a href="javascript:;" class="orange-btn show-micro-filter-button toggle">
+                Show Micro Filter<span class="icon-orange"><i class="icons"></i></span>
+              </a>
+            </div>
+            <div class="left-tags">
+              <span class="pull-left txt">Search Tags</span> 
+              <ul>
+                <li>PC<a href="javascript:;"><i class="icons"></i></a></li>
+                <li>Printer<a href="javascript:;"><i class="icons"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end .search-tags -->
+          <div class="search-content hide">
+            <div class="about-product">
+              <h3>About Product</h3>
+              <div class="forms">
+                <div class="row audit-date-row">
+                  <div class="name">
+                    <span class="pull-left">Audit Date</span>
+                    <span class="pull-right">:</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context clearfix">
+                    <div class="start-block pull-left">
+                      <span class="start">From</span>                     
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="from-date" type="text" value="09/18/2015" class="from-date" readonly>
+                        <a href="javascript:;" class="calendar-icon icons date-icon"></a>
+                      </div> 
+                    </div>
+                    <div class="end-block pull-left">
+                      <span class="end">To</span>
+                      <div class="item-input pull-left input-calendar calendar">
+                        <input name="to-date" type="text" class="to-date" value="09/28/2015" readonly />
+                        <a href="javascript:;" class="calendar-icon icons to-date-icon"></a>
+                      </div> 
+                    </div>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Product Name</span>
+                    <span class="pull-right">:</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context">
+                    <div class="item-input">
+                      <input type="text" placeholder="All">
+                    </div>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Product URL</span>
+                    <span class="pull-right">:</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context">
+                    <div class="item-input">
+                      <input type="text" placeholder="All">
+                    </div>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Price</span>
+                    <span class="pull-right">:</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context clearfix min-width125">
+                    <ul>
+                      <li>
+                        <a href="javascript:;" class="checkbox selected">
+                          <span class="checkbox-border"><i class="icons"></i></span>All Price
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>Under $30
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>$30-$80
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>$80-$200
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>$20-$800
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end .price-row -->
+                </div>
+                <!-- end .row -->
+              </div>
+              <!-- end .forms -->
+            </div>
+            <!-- end .about-product -->
+            <div class="specification">
+              <h3>Specification</h3>
+              <div class="forms">
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Power Input Voltage</span>
+                    <span class="pull-right">:</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context min-width225">
+                    <ul>
+                      <li>
+                        <a href="javascript:;" class="checkbox selected">
+                          <span class="checkbox-border"><i class="icons"></i></span>Wide Range (100 - 240 VAC)
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>100 - 120 VAC
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>220 - 240
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end .power-row -->
+                </div>
+                <!-- end .row -->
+              <div class="row">
+                <div class="name">
+                  <span class="pull-left">Power Consumption (printing)</span>
+                  <span class="pull-right">:</span>
+                </div>
+                <!-- end .name -->
+                <div class="context">
+                  <div class="item-input">
+                    <input type="text" placeholder="All">
+                  </div>
+                </div>
+                <!-- end .item -->
+              </div>
+              <!-- end .row -->
+              <div class="row">
+                <div class="name">
+                  <span class="pull-left">Power Input Voltage</span>
+                  <span class="pull-right">:</span>
+                </div>
+                <!-- end .name -->
+                <div class="context min-width225">
+                  <ul>
+                    <li>
+                      <a href="javascript:;" class="checkbox selected">
+                        <span class="checkbox-border"><i class="icons"></i></span>Energy Start
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:;" class="checkbox">
+                        <span class="checkbox-border"><i class="icons"></i></span>Blue Angel UZ-171
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:;" class="checkbox">
+                        <span class="checkbox-border"><i class="icons"></i></span>EPEAT
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end .automatic-row -->
+              </div>
+              <!-- end .row -->
+              <div class="row">
+                <div class="name">
+                  <span class="pull-left">Weight</span>
+                  <span class="pull-right">:</span>
+                </div>
+                <!-- end .name -->
+                <div class="context">
+                  <div class="item-input">
+                    <input type="text" placeholder="All">
+                  </div>
+                </div>
+                <!-- end .item -->
+              </div>
+              <!-- end .row -->
+              <div class="row">
+                <div class="name">
+                  <span class="pull-left">Package Weight</span>
+                  <span class="pull-right">:</span>
+                </div>
+                <!-- end .name -->
+                <div class="context">
+                  <div class="item-input">
+                    <input type="text" placeholder="All">
+                  </div>
+                </div>
+                <!-- end .item -->
+              </div>
+              <!-- end .row -->
+              <div class="row">
+                <div class="name">
+                  <span class="pull-left">Automatic Paper Sensor</span>
+                  <span class="pull-right">:</span>
+                </div>
+                <!-- end .name -->
+                <div class="context min-width0">
+                  <ul>
+                    <li>
+                      <a href="javascript:;" class="checkbox selected">
+                        <span class="checkbox-border"><i class="icons"></i></span>All
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:;" class="checkbox">
+                        <span class="checkbox-border"><i class="icons"></i></span>Yes
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:;" class="checkbox">
+                        <span class="checkbox-border"><i class="icons"></i></span>220 - 240
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end .item -->
+              </div>
+              <!-- end .row -->
+              <div class="row">
+                <div class="name">
+                  <span class="pull-left">Compatible OS</span>
+                  <span class="pull-right">:</span>
+                </div>
+                <!-- end .name -->
+                <div class="context">
+                  <div class="item-input">
+                    <input type="text" placeholder="All">
+                  </div>
+                </div>
+                <!-- end .item -->
+              </div>
+              <!-- end .row -->
+            </div>
+            <!-- end .forms -->
+          </div>
+            <!-- end .specification -->
+            <div class="specification spacing-box">
+              <h3>Specification</h3>
+              <div class="forms">
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Cable Included</span>
+                    <span class="pull-right">:</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context min-width180">
+                    <ul>
+                      <li>
+                        <a href="javascript:;" class="checkbox selected">
+                          <span class="checkbox-border"><i class="icons"></i></span>All
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>USB cable
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>Adaptor Power
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Software Included</span>
+                    <span class="pull-right">:</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context min-width180">
+                    <ul>
+                      <li>
+                        <a href="javascript:;" class="checkbox selected">
+                          <span class="checkbox-border"><i class="icons"></i></span>All
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>for Mac OS installer
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>for Windows OS installer
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                <div class="row">
+                  <div class="name">
+                    <span class="pull-left">Warranty Card</span>
+                    <span class="pull-right">:</span>
+                  </div>
+                  <!-- end .name -->
+                  <div class="context min-width180">
+                    <ul>
+                      <li>
+                        <a href="javascript:;" class="checkbox selected">
+                          <span class="checkbox-border"><i class="icons"></i></span>All
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>one year
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class="checkbox">
+                          <span class="checkbox-border"><i class="icons"></i></span>2 years
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end .item -->
+                </div>
+                <!-- end .row -->
+                </div>
+              <!-- end .forms -->
+              <div class="btn-boxs">
+                <a href="javascript:;" class="blue-btn pull-right run-filter-button">Run Filter</a>
+                <a href="javascript:;" class="grey-btn pull-right cancel-filter-button">Cancel</a>
+                <span class="clearfix"></span>
+              </div>
+            </div>
+            <!-- end .specification -->
+          </div>
+          <!-- end original .search-content -->
+          <!-- end .search-content -->
+          <div class="search-list">  
+            <div class="table-data">
+              <div class="row row-th">
+                <div class="col-th col-37"><span class="col-spacing left16">Product Name</span></div>
+                <div class="col-th col-15"><span class="col-spacing">Rating</span></div>
+                <div class="col-th col-16 text-left"><span class="col-spacing left16">Status</span></div>
+                <div class="col-th col-14"><span class="col-spacing">Price</span></div>
+                <div class="col-th col-18"><span class="col-spacing">Action</span></div>
+              </div>
+              <!-- end .row --> 
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-1.jpg" alt="product">
+                      <span class="txt">HP Officejet Enterprise Color X555x</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing orange-text">
+                    <i></i>Out of Stock &amp; Price Drop
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row --> 
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-2.jpg" alt="product">
+                      <span class="txt">HP 10 Plus</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing green-text">
+                    <i></i>Available Now
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row --> 
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-1.jpg" alt="product">
+                      <span class="txt">HP Spectre x360 - 13-4002dx</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing blue-text">
+                    <i></i>New Version
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row --> 
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail-printer.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-2.jpg" alt="product">
+                      <span class="txt">HP Officejet Enterprise Color X555x</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing purple-text">
+                    <i></i>Coming Soon
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row -->  
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-1.jpg" alt="product">
+                      <span class="txt">HP ENVY Phoenix 810st Desktop</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing yellow-text">
+                    <i></i>Empty Soon
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row --> 
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-1.jpg" alt="product">
+                      <span class="txt">HP ENVY Phoenix 810st Desktop</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing orange-text">
+                    <i></i>Out of Stock &amp; Price Drop
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row --> 
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-1.jpg" alt="product">
+                      <span class="txt">HP Officejet Enterprise Color X555x</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing green-text">
+                    <i></i>Available Now
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row --> 
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-2.jpg" alt="product">
+                      <span class="txt">HP 10 Plus</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing green-text">
+                    <i></i>Available Now
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row --> 
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-1.jpg" alt="product">
+                      <span class="txt">HP Spectre x360 - 13-4002dx</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing blue-text">
+                    <i></i>New Version
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row --> 
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-2.jpg" alt="product">
+                      <span class="txt">HP Officejet Enterprise Color X555x</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing green-text">
+                    <i></i>Available Now
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row -->
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-1.jpg" alt="product">
+                      <span class="txt">HP ENVY Phoenix 810st Desktop</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing green-text">
+                    <i></i>Available Now
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row -->
+              <div class="row">
+                <div class="col-td col-37 text-left">
+                  <span class="col-spacing name-spacing">
+                    <a href="product-detail.html" class="blue-link img-txt-link">
+                      <img src="i/product-img-80x72-1.jpg" alt="product">
+                      <span class="txt">HP ENVY Phoenix 810st Desktop</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="col-td col-15">
+                  <span class="col-spacing">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                </div>
+                <div class="col-td col-16 text-left">
+                  <span class="col-spacing orange-text">
+                    <i></i>Out of Stock &amp; Price Drop
+                  </span>
+                </div>
+                <div class="col-td col-14">
+                  <span class="col-spacing">$ 300.00</span>
+                </div>
+                <div class="col-td col-18">
+                  <span class="col-spacing">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+              </div>
+              <!-- end .row -->  
+            </div>
+            <!-- end .table-data -->
+            <div class="pages">
+              <div class="left-box pull-left">
+                <span class="txt">Show</span>
+                <span class="form-container selects-container">
+                  <select>
+                    <option selected>5</option>
+                    <option>10</option>
+                    <option>25</option>
+                    <option>50</option>
+                    <option>100</option>
+                  </select>
+                </span>          
+              </div>
+              <!-- end .left-box -->
+              <div class="right-box pull-right">
+                <span class="txt">Display 1-6 of 14</span>
+                <ul>
+                  <li><a href="javascript:;" class="first-btn"><i class="icons"></i></a></li>
+                  <li><a href="javascript:;" class="prev-btn"><i class="icons"></i></a></li>
+                  <li><a href="javascript:;" class="next-btn"><i class="icons"></i></a></li>
+                  <li><a href="javascript:;" class="last-btn"><i class="icons"></i></a></li>
+                </ul>
+              </div>
+              <!-- end .right-box -->
+            </div>
+            <!-- end .pages -->
+          </div>
+          <!-- end .search-list -->
+          <div class="search-grid hide">  
+            <div class="grid-data">
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="orange-text"><i></i>Out of Stock &amp; Price Drop</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="green-text"><i></i>Available Now</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="green-text"><i></i>Available Now</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="green-text"><i></i>Available Now</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="blue-text"><i></i>New Version</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail-printer.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail-printer.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="purple-text"><i></i>Coming Soon</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="yellow-text"><i></i>Empty Soon</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="green-text"><i></i>Available Now</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="green-text"><i></i>Available Now</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="green-text"><i></i>Available Now</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="green-text"><i></i>Available Now</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->
+              <div class="grid-block">
+                <span class="photos">
+                  <a href="product-detail.html"><img src="i/product-img-280x240-1.jpg" alt="product"></a>
+                </span>
+                <!-- end .photos -->
+                <div class="info">
+                  <h2 class="titles">
+                    <a href="product-detail.html" class="blue-link">HP Officejet Enterprise Color X555xh</a>
+                  </h2>
+                  <!-- end .titles -->
+                  <span class="green-text"><i></i>Available Now</span>
+                  <span class="rating">
+                    <span class="stars">
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star active"></a>
+                      <a href="javascript:;" class="icons icon-star"></a>
+                    </span>
+                    <span class="txt block">54 Reviews</span>
+                  </span>
+                  <!-- end .rating -->
+                  <span class="today">
+                    <span class="txt">Today</span>
+                    <span class="red-value">$ 102.12</span>
+                  </span>
+                  <!-- end .today -->
+                  <span class="btn-box">
+                    <a href="product-detail.html" class="blue-border-btn">Watch</a>
+                  </span>
+                </div>
+                <!-- end .info -->
+              </div>
+              <!-- end .grid-block -->              
+              <div class="clearfix"></div>
+            </div>
+            <!-- end .grid-data -->
+            <div class="pages">
+              <div class="left-box pull-left">
+                <span class="txt">Show</span>
+                <span class="form-container selects-container">
+                  <select>
+                    <option selected>5</option>
+                    <option>10</option>
+                    <option>25</option>
+                    <option>50</option>
+                    <option>100</option>
+                  </select>
+                </span>          
+              </div>
+              <!-- end .left-box -->
+              <div class="right-box pull-right">
+                <span class="txt">Display 1-6 of 14</span>
+                <ul>
+                  <li><a href="javascript:;" class="first-btn"><i class="icons"></i></a></li>
+                  <li><a href="javascript:;" class="prev-btn"><i class="icons"></i></a></li>
+                  <li><a href="javascript:;" class="next-btn"><i class="icons"></i></a></li>
+                  <li><a href="javascript:;" class="last-btn"><i class="icons"></i></a></li>
+                </ul>
+              </div>
+              <!-- end .right-box -->
+            </div>
+            <!-- end .pages -->
+          </div>
+          <!-- end .search-grid -->
+          
+          
+        </div>
+        <!-- end .search-right -->
+        
+      </div>
+      <!-- end .search-main -->
+    </div>
+  </div>
+  <!-- end .search -->
+  
+  <div class="tab-content hide">
+    Tablets
+  </div>
+  
+  <div class="tab-content hide">
+    Laptops
+  </div>
+  
+  <div class="tab-content hide">
+    Desktops
+  </div>
+  <footer class="footer">
+    <div class="container-fluid">
+      <p class="copyright">Copyright Product Inventory @2015</p>
+    </div>
+  </footer>
+  <!-- end .footer -->
+  
+</body>
+</html>

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta Tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no">
+  <title>Dashboard</title>
+
+  <!-- Bootstrap -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+  <!-- Main CSS -->
+  <link href="css/font.css" rel="stylesheet" />
+  <link href="css/jqtransform.css" rel="stylesheet" />
+  <link href="css/jquery.ui.css" rel="stylesheet" />
+  <link href="css/screen.css" rel="stylesheet" />
+    
+  <!-- jQuery library -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery.jqtransform.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script> 
+  <!-- Main JS -->
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container-fluid">
+      <div class="logo pull-left">Product Inventory</div>
+      <!-- end .logo -->
+      <div class="nav-user pull-right">
+        <nav class="nav-bar pull-left">
+          <ul>
+            <li class="current">
+              <a href="dashboard.html">
+                <span class="icon-dashboard icons"></span>
+                <span class="txt">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="search.html">
+                <span class="icon-search icons"></span>
+                <span class="txt">Search</span>
+              </a>
+            </li>
+            <li>
+              <a href="profile.html">
+                <span class="icon-profile icons"></span>
+                <span class="txt">Profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="messages.html">
+                <span class="icon-messages icons"></span>
+                <span class="txt">Messages</span>
+              </a>
+            </li>
+            <li>
+              <a class="menu-item-alerts" href="javascript:;">
+                <span class="icon-alerts icons">
+                  <span class="orange-round">6</span>
+                </span>
+                <span class="txt">Alerts</span>
+              </a>
+              <div class="alerts-notification hide">
+                <span class="icon-top-arrow icons"></span>
+                <h3>You have 6 new alerts</h3>
+                <div class="table-data scroll-bar">
+                  <div class="row light-row green-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum has been <span class="green-txt">available now!</span></a>
+                    </p>
+                    <p class="font13">2 minutes ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row light-row orange-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="orange-txt">out of stock and price drop!</span></a>
+                    </p>
+                    <p class="font13">4 minutes ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row blue-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="blue-txt">new version!</span></a>
+                    </p>
+                    <p class="font13">1 hour ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row purple-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail-printer.html">Product name lorem ipsum <span class="purple-txt">coming soon!</span></a>
+                    </p>
+                    <p class="font13">2 hours ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row yellow-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum will <span class="yellow-txt">empty soon!</span></a>
+                    </p>
+                    <p class="font13">12 hours ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row light-row orange-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="orange-txt">out of stock and price drop!</span></a>
+                    </p>
+                    <p class="font13">1 day ago</p>
+                  </div>
+                  <!-- end .row -->    
+                  <div class="row blue-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum <span class="blue-txt">new version!</span></a>
+                    </p>
+                    <p class="font13">1 hour ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row purple-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail-printer.html">Product name lorem ipsum <span class="purple-txt">coming soon!</span></a>
+                    </p>
+                    <p class="font13">2 hours ago</p>
+                  </div>
+                  <!-- end .row -->
+                  <div class="row yellow-row">
+                    <i></i>
+                    <p class="font15">
+                      <a href="product-detail.html">Product name lorem ipsum will <span class="yellow-txt">empty soon!</span></a>
+                    </p>
+                    <p class="font13">12 hours ago</p>
+                  </div>
+                  <!-- end .row -->          
+                </div>
+                <!-- end .table-data -->
+                <div class="btn-bar"><a href="alerts.html">View More</a></div>  
+                <!-- end .btn-bar --> 
+              </div>
+              <!-- end .alerts-notification -->
+            </li>
+          </ul>
+        </nav>
+        <!-- end .nav-bar -->
+        <div class="user-bar pull-left">
+          <span class="txt">Welcome, Jeniroxy</span>
+          <span class="describe">as Project Manager</span>
+        </div>
+        <!-- end .user-bar -->
+      </div>
+      <!-- end .nav-user -->
+      <span class="clearfix"></span>
+    </div>
+  </header>
+  <!-- end .header -->
+  
+  <!-- Added div class=titles top24 so that "Alerts list" gets aligned with
+        all other pages (alerts, messages etc.,)
+  -->
+  <div class="contents alerts-list tab-content">    
+    <div class="titles top24">
+      <h2>Alerts List</h2>
+    </div>
+    <!-- end .titles -->  
+      <div class="container-fluid">
+        <div class="operation-row">
+          <div class="left-box pull-left">
+            <span class="txt">Select by Status</span>
+            <span class="form-container selects-container">
+              <select>
+                <option selected>All Status</option>
+                <option>New products are coming soon</option>
+                <option>New products have been added</option>
+                <option>Products have been expired</option>
+                <option>Products have data elements missing</option>
+                <option>Products have changes in pricing</option>
+              </select>
+            </span>
+          </div>
+          <!-- end .left-box -->  
+          <div class="right-box pull-right">
+            <a href="javascript:;" class="blue-link csv-link-group"><span class="blue-round">csv</span>Export to CSV</a>
+          </div>
+          <!-- end .right-box -->  
+          <span class="clearfix"></span>
+        </div>
+        <!-- end .operation-row -->
+        <div class="table-data">
+          <div class="row row-th">
+            <div class="col-th col-28 text-left"><span class="col-spacing left122">Product Name</span></div>
+            <div class="col-th col-12"><span class="col-spacing">Rating</span></div>
+            <div class="col-th col-10"><span class="col-spacing">Date Added</span></div>
+            <div class="col-th col-16 text-left"><span class="col-spacing">Status Availability</span></div>
+            <div class="col-th col-10"><span class="col-spacing">Quality</span></div>
+            <div class="col-th col-10"><span class="col-spacing">Price</span></div>
+            <div class="col-th col-14"><span class="col-spacing">Action</span></div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-28 text-left">
+              <span class="col-spacing name-spacing">
+                <a href="product-detail.html" class="blue-link img-txt-link">
+                  <img src="i/product-img-80x72-1.jpg" alt="product">
+                  <span class="txt">HP Officejet Enterprise Color X555x</span>
+                </a>
+              </span>
+            </div>
+            <div class="col-td col-12">
+              <span class="col-spacing">
+                <span class="stars">
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star"></a>
+                </span>
+                <span class="txt block">54 Reviews</span>
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing">
+                <span class="txt block">08/12/2015</span>
+                <span class="txt block">07:00 AM</span>
+              </span>
+            </div>
+            <div class="col-td col-16 text-left">
+              <span class="col-spacing orange-text right36">
+                <i></i>Out of Stock &amp; Price Drop
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing"><span class="txt block">White, Black &amp;</span> Price Drop</span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing prize-column">$ 300.00</span>
+            </div>
+            <div class="col-td col-14">
+              <span class="col-spacing">
+                <a href="javascript:;" class="gray-border-btn">Delete</a>
+              </span>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-28 text-left">
+              <span class="col-spacing name-spacing">
+                <a href="product-detail.html" class="blue-link img-txt-link">
+                  <img src="i/product-img-80x72-2.jpg" alt="product">
+                  <span class="txt">HP 10 Plus</span>
+                </a>
+              </span>
+            </div>
+            <div class="col-td col-12">
+              <span class="col-spacing">
+                <span class="stars">
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star"></a>
+                </span>
+                <span class="txt block">54 Reviews</span>
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing">
+                <span class="txt block">08/12/2015</span>
+                <span class="txt block">07:00 AM</span>
+              </span>
+            </div>
+            <div class="col-td col-16 text-left">
+              <span class="col-spacing green-text">
+                <i></i>Available Now
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing"><span class="txt block">New Color</span> (Grey, Black)</span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing prize-column">$ 300.00</span>
+            </div>
+            <div class="col-td col-14">
+              <span class="col-spacing">
+                <a href="javascript:;" class="gray-border-btn">Delete</a>
+              </span>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-28 text-left">
+              <span class="col-spacing name-spacing">
+                <a href="product-detail.html" class="blue-link img-txt-link">
+                  <img src="i/product-img-80x72-1.jpg" alt="product">
+                  <span class="txt">HP Spectre x360 - 13-4002dx</span>
+                </a>
+              </span>
+            </div>
+            <div class="col-td col-12">
+              <span class="col-spacing">
+                <span class="stars">
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star"></a>
+                </span>
+                <span class="txt block">54 Reviews</span>
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing">
+                <span class="txt block">08/12/2015</span>
+                <span class="txt block">07:00 AM</span>
+              </span>
+            </div>
+            <div class="col-td col-16 text-left">
+              <span class="col-spacing blue-text">
+                <i></i>New Version
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing"><span class="txt block">White, Black &amp;</span> Price Drop</span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing prize-column">$ 300.00</span>
+            </div>
+            <div class="col-td col-14">
+              <span class="col-spacing">
+                <a href="javascript:;" class="gray-border-btn">Delete</a>
+              </span>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-28 text-left">
+              <span class="col-spacing name-spacing">
+                <a href="product-detail-printer.html" class="blue-link img-txt-link">
+                  <img src="i/product-img-80x72-2.jpg" alt="product">
+                  <span class="txt">HP Officejet Enterprise Color X555x</span>
+                </a>
+              </span>
+            </div>
+            <div class="col-td col-12">
+              <span class="col-spacing">
+                <span class="stars">
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star"></a>
+                </span>
+                <span class="txt block">54 Reviews</span>
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing">
+                <span class="txt block">08/12/2015</span>
+                <span class="txt block">07:00 AM</span>
+              </span>
+            </div>
+            <div class="col-td col-16 text-left">
+              <span class="col-spacing purple-text">
+                <i></i>Coming Soon
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing"><span class="txt block"> Revision of </span>Weight Value</span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing prize-column">$ 300.00</span>
+            </div>
+            <div class="col-td col-14">
+              <span class="col-spacing">
+                <a href="javascript:;" class="gray-border-btn">Delete</a>
+              </span>
+            </div>
+          </div>
+          <!-- end .row -->
+          <div class="row">
+            <div class="col-td col-28 text-left">
+              <span class="col-spacing name-spacing">
+                <a href="product-detail.html" class="blue-link img-txt-link">
+                  <img src="i/product-img-80x72-1.jpg" alt="product">
+                  <span class="txt">HP ENVY Phoenix 810st Desktop</span>
+                </a>
+              </span>
+            </div>
+            <div class="col-td col-12">
+              <span class="col-spacing">
+                <span class="stars">
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star"></a>
+                </span>
+                <span class="txt block">54 Reviews</span>
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing">
+                <span class="txt block">08/12/2015</span>
+                <span class="txt block">07:00 AM</span>
+              </span>
+            </div>
+            <div class="col-td col-16 text-left">
+              <span class="col-spacing yellow-text">
+                <i></i>Empty Soon
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing"><span class="txt block"> Lorem ipsum, dolor sit, </span>consectetuer elit. </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing prize-column">$ 300.00</span>
+            </div>
+            <div class="col-td col-14">
+              <span class="col-spacing">
+                <a href="javascript:;" class="gray-border-btn">Delete</a>
+              </span>
+            </div>
+          </div>
+          <!-- end .row --> 
+          <div class="row">
+            <div class="col-td col-28 text-left">
+              <span class="col-spacing name-spacing">
+                <a href="product-detail.html" class="blue-link img-txt-link">
+                  <img src="i/product-img-80x72-1.jpg" alt="product">
+                  <span class="txt">HP ENVY Phoenix 810st Desktop</span>
+                </a>
+              </span>
+            </div>
+            <div class="col-td col-12">
+              <span class="col-spacing">
+                <span class="stars">
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star active"></a>
+                  <a href="javascript:;" class="icons icon-star"></a>
+                </span>
+                <span class="txt block">54 Reviews</span>
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing">
+                <span class="txt block">08/12/2015</span>
+                <span class="txt block">07:00 AM</span>
+              </span>
+            </div>
+            <div class="col-td col-16 text-left">
+              <span class="col-spacing orange-text right36">
+                <i></i>Out of Stock &amp; Price Drop
+              </span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing"><span class="txt block">Change Model</span></span>
+            </div>
+            <div class="col-td col-10">
+              <span class="col-spacing prize-column">$ 300.00</span>
+            </div>
+            <div class="col-td col-14">
+              <span class="col-spacing">
+                <a href="javascript:;" class="gray-border-btn">Delete</a>
+              </span>
+            </div>
+          </div>
+          <!-- end .row --> 
+        </div>
+        <!-- end .table-data -->
+        <div class="pages">
+          <div class="left-box pull-left">
+            <span class="txt">Show</span>
+            <span class="form-container selects-container">
+              <select>
+                <option selected>5</option>
+                <option>10</option>
+                <option>25</option>
+                <option>50</option>
+                <option>100</option>
+              </select>
+            </span>          
+          </div>
+          <!-- end .left-box -->
+          <div class="right-box pull-right">
+            <span class="txt">Display 1-6 of 14</span>
+            <ul>
+              <li><a href="javascript:;" class="first-btn"><i class="icons"></i></a></li>
+              <li><a href="javascript:;" class="prev-btn"><i class="icons"></i></a></li>
+              <li><a href="javascript:;" class="next-btn"><i class="icons"></i></a></li>
+              <li><a href="javascript:;" class="last-btn"><i class="icons"></i></a></li>
+            </ul>
+          </div>
+          <!-- end .right-box -->
+        </div>
+        <!-- end .pages -->
+      </div>
+  </div>
+  <!-- end .alerts-list -->
+   
+  <footer class="footer">
+    <div class="container-fluid">
+      <p class="copyright">Copyright Product Inventory @2015</p>
+    </div>
+  </footer>
+  <!-- end .footer -->
+  
+</body>
+</html>

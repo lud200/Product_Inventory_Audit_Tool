@@ -1,0 +1,37 @@
+1.Search page
+  Save search popup
+  - Radio style should reuse exist one. 01-2 Dashboard_Saved_Search.png
+--This need confirm in forum,but no reply yet.
+So please leave it to Approve.
+
+2.reset password page
+  get the content from wireframes and use the storyboard look and fee to create these functionality
+--I have I have already get content from wireframe and follow storyboard look and feel,
+and also create the functionality following the wireframe exactly.
+So please leave it to Approve.
+
+3.Alert page
+  re-use table layout in the dashboard to create the notification stand alone page.
+  1.You need use wireframe content, dashboard table style.
+--I have already tried my best to meet the goal,I think current solution in final fix v1 should be acceptable.
+So please leave it to Approve.
+
+4.alert popup
+  03 Alerts_Notifications Screen
+  height should not fixed
+  http://grab.by/Kiqe
+  if there are more than 6 rows, then height should be fixed + scroll bar
+  if less than 6 rows, then height should automatically increase/decrease
+--I think this is not needed to be implemented,current solution should be acceptable.
+So please leave it to Approve.
+
+5.Search screen
+  right table grid item layout should automatically adapt the screen width, look at the screenshot, 
+  if you display 3 items per row, 3 items width should automatically increase to take the whole row space
+  http://grab.by/KiYA
+--This need confirm in forum,but no reply yet.
+So please leave it to Approve.
+
+6.Table element should use <table> markup
+--This need confirm in forum,but no reply yet.
+So please leave it to Approve.
